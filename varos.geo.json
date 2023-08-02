@@ -1,103 +1,117 @@
 {
     "type": "FeatureCollection",
-    "features" : [
-        {
-            "type": "Feature",
-            "geometry": {
-            "type": "Point",
-            "coordinates": [45.863611, 25.7875]
-            },
-            "properties": {
-                "name": "sepsiszentgyorgy",
-                "road": 1,
-                "both": 3,
-                "szemely": "Simon Levente",
-                "year": "2023"
-            }
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "sepsiszentgyorgy",
+            "szemely": "Simon Levente",
+            "year": "2002",
+            "road": 1
         },
-        {
-            "type": "Feature",
-            "geometry": {
-            "type": "Point",
-            "coordinates": [46.359444, 25.801667]
-            },
-            "properties": {
-                "name": "csikszereda",
-                "road": 1,
-                "both": 3,
-                "szemely": "Simon Levente",
-                "year": "2023"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-            "type": "Point",
-            "coordinates": [46.3, 25.3]
-            },
-            "properties": {
-                "name": "udvarhely",
-                "road": 1,
-                "both": 3,
-                "szemely": "Simon Levente",
-                "year": "2023"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-            "type": "Point",
-            "coordinates": [46.551111, 25.1275]
-            },
-            "properties": {
-                "name": "parajd",
-                "road": 1,
-                "both": 3,
-                "szemely": "Simon Levente",
-                "year": "2023"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-            "type": "Point",
-            "coordinates": [46.766667, 23.583333]
-            },
-            "properties": {
-                "name": "kolozsvar",
-                "road": 2,
-                "both": 3,
-                "szemely": "Simon Levente",
-                "year": "2021"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-            "type": "Point",
-            "coordinates": [46.545556, 24.5625]
-            },
-            "properties": {
-                "name": "vasarhely",
-                "road": 2,
-                "both": 3,
-                "szemely": "Simon Levente",
-                "year": "2021"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-            "type": "Point",
-            "coordinates": [46.075, 25.6]
-            },
-            "properties": {
-                "name": "barot",
-                "road": 2,
-                "both": 3,
-                "szemely": "Simon Levente",
-                "year": "2021"
-            }
+        "geometry": {
+          "coordinates": [
+            25.786450713851053,
+            45.86616099648211
+          ],
+          "type": "Point"
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "csikszereda",
+            "szemely": "Simon Levente",
+            "year": "2023",
+            "road": 1
+        },
+        "geometry": {
+          "coordinates": [
+            25.80227011612203,
+            46.36126909332441
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "udvarhely",
+            "szemely": "Simon Levente",
+            "year": "2002",
+            "road": 1
+        },
+        "geometry": {
+          "coordinates": [
+            25.293005816577505,
+            46.305295973064204
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "parajd",
+            "szemely": "Simon Levente",
+            "year": "2023",
+            "road": 1
+        },
+        "geometry": {
+          "coordinates": [
+            25.124630839412163,
+            46.55263237699137
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "kolozsvar",
+            "szemely": "Simon Levente",
+            "year": "2021",
+            "road": 2
+        },
+        "geometry": {
+          "coordinates": [
+            23.589690951525426,
+            46.7698851640144
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "marosvasarhely",
+            "szemely": "Simon Levente",
+            "year": "2002",
+            "road": 2
+        },
+        "geometry": {
+          "coordinates": [
+            24.560989140326598,
+            46.54459021887763
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "barot",
+            "szemely": "Simon Levente",
+            "year": "2021",
+            "road": 2
+        },
+        "geometry": {
+          "coordinates": [
+            25.599168481893912,
+            46.07546988905588
+          ],
+          "type": "Point"
+        }
+      }
     ]
-}
+  }

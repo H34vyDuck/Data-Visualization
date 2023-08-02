@@ -1,205 +1,124 @@
-// Define variables for holding our canvas and maps
-let myMap
-let canvas
-const mappa = new Mappa('Leaflet')
-let coords_text
-
-// Define points of interest
-let romania = {
-  lat:44.416667, 
-  lng:26.1
-}
-
-let elephant_tree = {lat:51.5168, lng:-0.3093}
-
-// Set up the options for our map
-const options = {
-  lat: romania.lat,
-  lng: romania.lng,
-  zoom: 6,
-  style: tiles_library.osm.url
-}
 
 function preload() {
-
-  geodata = loadJSON('london_boroughs.geo.json');
-  geodata = loadJSON('europe.geo.json')
-  //print(geodata)
-
-  varos = loadJSON('varos.geo.json')
-  ut = loadJSON('ut.geo.json')
-  //print(ut)
+  varos = loadJSON('varos.geo.json');
 }
 
-function setup(){
-  // Create a canvas on which to draw the map
-  canvas = createCanvas(640,640)
-  canvas.parent('canvasHolder')
+let sel;
+let selectCity;
+var geojsonMarkerOptions = {
+  radius: 4,
+  fillColor: "#ff7800",
+  color: "#ff7800",
+  weight: 1,
+  opacity: 1,
+  fillOpacity: 0.8
+};
 
-  // Create map with the options
-  myMap = mappa.tileMap(options)
-
-  // Draw the map on the canvas
-  myMap.overlay(canvas)
-  
-  //print(london.features[0].geometry.coordinates[0])
-  //print(london.features[0].properties.name)
-  //polygons = myMap.geoJSON(geodata, 'Polygon')
-  //names = geoJsonNames(geodata)
-  
-  polygons = myMap.geoJSON(geodata, 'MultiPolygon')
-  //print(polygons)
-  utvonal = myMap.geoJSON(ut, 'Polygon')
-
-  a = myMap.geoJSON(varos, 'Point')
-  names = geoJsonNames(varos)
-
-  const sel = createSelect();
-  sel.id('roadSelect');
-  if(ut){
-    for (let features of ut.features){
-      const person = features.properties.person;
-      const year = features.properties.year;
-      const optionText = `${person}, ${year}`;
-      sel.option(optionText);
-    }
+function mySelectEvent() {
+  let item = selectCity.value();
+  console.log(item);
+  if(item == city){
+    console.log(features.properties.year);
   }
-
-  const selectCity = createSelect();
-  selectCity.id('roadSelect');
-  if(ut){
-    for (let features of varos.features){
-      const name = features.properties.name;
-      selectCity.option(name);
-    }
-  }
-  
-  sel.parent('selectHolder')
-  selectCity.parent('selectHolder')
-//  print(names)
-//  print(polygons)
-
+  var layer = new L.geoJson(varos, {
+    pointToLayer: function (feature, latLng) {
+      return L.circleMarker(item).bindPopup(item).on('mouseover', function() {
+        this.bindPopup(feature.properties.name).openPopup();
+    })}
+});
 }
+
+function mySelectRoad() {
+  let item = sel.value();
+  return item;
+}
+/**
+   L.geoJSON(varos, {
+     filter: function(feature, layer) {
+       return feature.properties.road == 1;
+    },
+    pointToLayer: function (feature, latlng) {
+        city = feature.properties.name
+        return L.circleMarker(latlng, geojsonMarkerOptions).bindPopup(city).on('mouseover', function() {
+          this.bindPopup(feature.properties.name).openPopup();
+        });
+    }
+  }).addTo(map);
+*/
 
 function geoJsonNames(data) {
   names = []
   for (let i = 0; i < data.features.length; i++) {
-    names.push(data.features[i].properties.name)
+    names.push(data.features[i].properties.year)
   }
   //console.log(names)
   return names
 }
 
-function geoPlotPolygon(data, index) {
-  let polygon = data[index][0]
-    beginShape()
+function setup() { 
+  //createCanvas(1200,100)
 
-    for (let i = 0; i < polygon.length; i++) {
-      pos = myMap.latLngToPixel(polygon[i], polygon[i])
-      //print(pos)
-      vertex(pos.x, pos.y)
+  ///
+
+  var map = L.map('mapid',{scrollWheelZoom:true, zoomControl: false, fadeAnimation: true}).setView([45.916667, 25.1], 6.5);
+
+  L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>  contributors &copy;  <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd',
+    minZoom: 6.5,
+  }).addTo(map);
+
+
+  sel = createSelect();
+  sel.id('selectRoad');
+  sel.parent('#sketch');
+
+  ev = geoJsonNames(varos)
+  let unique = [...new Set(ev)]
+
+
+  for(let i=0; i<unique.length; i++){
+    sel.option(unique[i]);
+  }
+  sel.changed(mySelectRoad);
+
+  /*if(varos){
+    for (let features of varos.features){
+
+      const pers = features.properties.szemely;
+      const year = features.properties.year;
+
+      const optionText = `${pers}, ${year}`;
+      
     }
-    endShape()
-}
+  }*/
 
-/// Az en fuggvenyeim  ///
-
-function mySelectEvent1() {
-  let item = sel.value();
-  if(item == "ut1"){
-    return 0;
-  }else if(item == "ut2"){
-    return 1;
-  }else if(item == "osszes"){
-    return 2;
-  }
-}
-
-/*
-
-function mySelectEvent2(){
-  let item = selectMenu.value();
-  if(item == "sepsiszentgyorgy" || item == "csikszereda" || item == "udvarhely" || item == "parajd"){
-    return 1;
-  }else if(item == "kolozsvar" || item == "vasarhely" || item == "parajd"){
-    return 2;
-  }
-}
-
-*/
-
-function geoPoint(data, index, ut){
-
-  let point = a[index]
-  let road = data.features[index].properties.road
-  let both = data.features[index].properties.both
-
-  beginShape(LINES)
-
-  stroke("black")
-  strokeWeight(10)
-  noFill()
-
-  for(let i=0; i<a.length; i++){
-    pos = myMap.latLngToPixel(point[0], point[1])
-    if(ut == road){
-      vertex(pos.x, pos.y)
-    }else if(ut == both){
-      vertex(pos.x, pos.y)
-    }
-    endShape(CLOSE)
-  }
-}
-
-/// *** ///
-
-function geoPlotMultiPolygon(data, index) {
-  let polygons = data[index][0]
-  for (let p=0; p<polygons.length; p++) {
-    let polygon = polygons[p]
-    if (polygon.length > 0) {
-      beginShape()
-      for (let i = 0; i < polygon.length; i++) {
-        pos = myMap.latLngToPixel(polygon[i][1], polygon[i][0])
-        vertex(pos.x, pos.y)
-      }
-      endShape(CLOSE)
+  selectCity = createSelect();
+  selectCity.id('selectCity');
+  selectCity.parent('#sketch')
+  if(varos){
+    for (let features of varos.features){
+      const name = features.properties.name;
+      selectCity.option(name);
     }
   }
-}
+  selectCity.option('osszes')
+  selectCity.changed(mySelectEvent);
 
-function draw(){
-   // Clear the canvas on every frame
-  clear()
-
-  //route = geodata.features[1].geometry.coordinates[0][0]
-
-  //route = polygons//geodata.features[0].geometry.coordinates[0]
-  //print(route)
-  //print(route)
-  
-  //point = varos.features[1].geometry.coordinates
-  //console.log(point);
-  
-  //console.log(a.length);
-  
-  stroke("red")
-  strokeWeight(3)
-  noFill()
-
-
-  geoPlotPolygon(utvonal, 0)
-  stroke("green")
-  geoPlotPolygon(utvonal, 1)
-  stroke("blue")
-  geoPlotPolygon(utvonal, 2)
-
-  for(let i=0; i<a.length; i++){
-    geoPoint(varos, i, 3)
-  }
-  
-  
-  //geoPlotMultiPolygon(polygons, 1)
+  L.geoJSON(varos, {
+    filter: function(feature, layer) {
+      return feature.properties.year == mySelectRoad();
+   },
+   pointToLayer: function (feature, latlng) {
+       city = feature.properties.name
+       return L.circleMarker(latlng, geojsonMarkerOptions).bindPopup(city).on('mouseover', function() {
+         this.bindPopup(feature.properties.name).openPopup();
+     });
+   }
+ }).addTo(map);
 
 }
 
+function draw() {
+  //mySelectRoad();
+}
