@@ -1,0 +1,117 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "sepsiszentgyorgy",
+            "person": "Simon Levente",
+            "year": "2002",
+            "road": 1
+        },
+        "geometry": {
+          "coordinates": [
+            25.786450713851053,
+            45.86616099648211
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "csikszereda",
+            "person": "Simon Levente",
+            "year": "2023",
+            "road": 1
+        },
+        "geometry": {
+          "coordinates": [
+            25.80227011612203,
+            46.36126909332441
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "udvarhely",
+            "person": "Simon Levente",
+            "year": "2002",
+            "road": 1
+        },
+        "geometry": {
+          "coordinates": [
+            25.293005816577505,
+            46.305295973064204
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "parajd",
+            "person": "Simon Levente",
+            "year": "2023",
+            "road": 1
+        },
+        "geometry": {
+          "coordinates": [
+            25.124630839412163,
+            46.55263237699137
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "kolozsvar",
+            "person": "Simon Levente",
+            "year": "2021",
+            "road": 2
+        },
+        "geometry": {
+          "coordinates": [
+            23.589690951525426,
+            46.7698851640144
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "marosvasarhely",
+            "person": "Simon Levente",
+            "year": "2002",
+            "road": 2
+        },
+        "geometry": {
+          "coordinates": [
+            24.560989140326598,
+            46.54459021887763
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "barot",
+            "person": "Simon Levente",
+            "year": "2021",
+            "road": 2
+        },
+        "geometry": {
+          "coordinates": [
+            25.599168481893912,
+            46.07546988905588
+          ],
+          "type": "Point"
+        }
+      }
+    ]
+  }

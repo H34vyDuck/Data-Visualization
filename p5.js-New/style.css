@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+canvas {
+  width: 100vw;
+  height: 100vh;
+}
+#main{
+  position: absolute;
+  z-index: 1;
+}
+#selects{
+  
+  position: relative;
+  z-index: 1000;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+#info{
+  height: 200px;
+  
+  margin-top: 15px;
+  padding: 10px;
+
+  background-color: gray;
+  color: white;
+  z-index: 1000;
+  position: relative;
+}
+#content{
+  top: 50px;
+  right: 50px;
+  
+  width: 200px;
+  height: fit-content;
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
