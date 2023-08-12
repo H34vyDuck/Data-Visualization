@@ -15,21 +15,27 @@ canvas {
   
   position: relative;
   z-index: 1000;
-  height: 50px;
+  height: fit-content;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
 }
+#selects > * {
+  margin: 10px;
+}
+
 #info{
   height: 200px;
   
   margin-top: 15px;
-  padding: 10px;
+  padding: 20px;
 
   background-color: gray;
   color: white;
   z-index: 1000;
   position: relative;
+
+  border-radius: 15%;
 }
 #content{
   top: 50px;
@@ -41,4 +47,7 @@ canvas {
   position: absolute;
   display: flex;
   flex-direction: column;
+}
+.leaflet-control-zoom {
+  display: none;
 }

@@ -2,12 +2,14 @@
 let myMap
 let canvas
 const mappa = new Mappa('Leaflet')
-let coords_text
 
 // Define points of interest
 let romania = {lat:45.916667, lng: 25.1}
 
-let elephant_tree = {lat:51.5168, lng:-0.3093}
+var timeline_x = 30;
+//var timeline_length = 
+var buttons = [];
+var newest_selection = 0;
 
 // Set up the options for our map
 const options = {
@@ -27,27 +29,15 @@ let divInfo;
 function setup(){
   // Create a canvas on which to draw the map
   canvas = createCanvas(windowWidth, windowHeight)
-  console.log(windowWidth + ", " + windowHeight);
+  console.log(windowWidth + ", " + windowHeight)
 
   // Create map with the options
   myMap = mappa.tileMap(options)
 
   // Draw the map on the canvas
   myMap.overlay(canvas)
-  
-  
-  
- // print(london.features[0].geometry.coordinates[0])
-  //print(london.features[0].properties.name)
-  //polygons = myMap.geoJSON(geodata, 'Polygon')
-  //names = geoJsonNames(geodata)
-  
+
   polygons = myMap.geoJSON(geodata, 'Point')
-  names = geoJsonYears(geodata)  
-  console.log(polygons);
-  
-//  print(names)
-//  print(polygons)
 
   sel = createSelect();
   sel.id('selectRoad');
@@ -60,6 +50,7 @@ function setup(){
   for(let i=0; i<unique.length; i++){
     sel.option(unique[i]);
   }
+  sel.option('osszes')
   sel.changed(mySelectRoad);
 
   selectCity = createSelect();
@@ -79,7 +70,7 @@ function setup(){
   divInfo.parent('#infoTab');
   divInfo.hide();
 
-  console.log(geoJsonNames(geodata));
+  console.log(geoJsonYears(geodata));
 
 }
 
@@ -101,8 +92,28 @@ function mySelectCity() {
   
 }
 
+function road(i) {
+      const pos = myMap.latLngToPixel(polygons[i][1], polygons[i][0])
+      stroke("blue")
+      strokeWeight(5)
+      ellipse(pos.x, pos.y, 10, 10)
+}
+
 function mySelectRoad() {
   let item = sel.value();
+
+  years = geoJsonYears(geodata);
+  
+  for(i in years){
+    if(item == years[i]){
+      //console.log(polygons[i]);
+      road(i)
+    }else if(item == "osszes"){
+      road(i)
+      continue
+    }
+
+  }
 }
 
 function geoJsonYears(data) {
@@ -158,10 +169,9 @@ function geoPlotMultiPolygon(data, index) {
         ellipse(all.x, all.y, 2, 2)
         divInfo.html("All cities")
     }
-  }
-
-  
+  }  
 }
+
 /*for (let p=0; p<polygons.length; p++) {
   let polygon = polygons[p]
   pos = myMap.latLngToPixel(polygon[i][1], polygon[i][0])
@@ -184,12 +194,17 @@ function draw(){
   stroke("green")
   strokeWeight(5)
   noFill()
-  geoPlotMultiPolygon(polygons, mySelectCity()) 
-  //route = geodata.features[0].geometry.coordinates[0][0]
-  
-  route = polygons//geodata.features[0].geometry.coordinates[0]
-  //print(route)
-  //print(route)
-
+  if(sel.selected()){
+    mySelectRoad()
+  }else{
+    clear()
+  }
+  geoPlotMultiPolygon(polygons, mySelectCity())
+  /*
+  for(features of geodata.features){
+    const all = myMap.latLngToPixel(features.geometry.coordinates[1], features.geometry.coordinates[0])
+    if(mouseX == all.x){
+      console.log(features.properties.name);
+    }
+  }*/
 }
-
