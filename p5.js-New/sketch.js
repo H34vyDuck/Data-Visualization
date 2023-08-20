@@ -21,6 +21,7 @@ const options = {
 
 function preload() {
   geodata = loadJSON('varos.geo.json');
+  docdata = loadJSON('output.geojson');
   //geodata = loadJSON('europe.geo.json')
 }
 
@@ -70,50 +71,85 @@ function setup(){
   divInfo.parent('#infoTab');
   divInfo.hide();
 
+  console.log(geodata);
+  console.log(polygons);
   console.log(geoJsonYears(geodata));
+  console.log(geoJsonNames(geodata));
+  console.log(geoJsonCities(geodata));
 
+  /// A script ellenorzese console-on
+  
+  db = 1
+  for (const [index, features] of docdata.features.entries()){
+    isNull = docdata.features[index].properties.year
+    if(isNull != null){
+      console.log(db + ". " + docdata.features[index].properties.year + " " + docdata.features[index].properties.name);
+      db++
+    }
+  }
+  console.log(db);
+
+}
+
+/// A select valasztas utan meghivott fuggveny
+
+function cityMarker(i, color, size, weigth) {
+      const pos = myMap.latLngToPixel(polygons[i][1], polygons[i][0])
+      stroke(color);
+      strokeWeight(weigth);
+      ellipse(pos.x, pos.y, size, size)
 }
 
 function mySelectCity() {
   let item = selectCity.value();
-  //console.log(item);
-  if(geodata){
-    for (const [index, features] of geodata.features.entries()){
-      if (features.properties.name == item) {
-        //var data = features.geometry.coordinates
-        //console.log(index);
-        return index
-      }
+
+  names = geoJsonCities(geodata);
+
+  color = "yellow"
+  weigth = 5
+  size = 5
+
+  for(i in names){
+    if(item == names[i]){
+      //console.log(polygons[i]);
+      cityMarker(i, color, size, weigth)
+    }else if(item == "osszes"){
+      cityMarker(i, color, size, weigth)
+      continue
     }
-    if("osszes" == item) {
-      return -1
-    }
+
   }
   
-}
-
-function road(i) {
-      const pos = myMap.latLngToPixel(polygons[i][1], polygons[i][0])
-      stroke("blue")
-      strokeWeight(5)
-      ellipse(pos.x, pos.y, 10, 10)
 }
 
 function mySelectRoad() {
   let item = sel.value();
 
   years = geoJsonYears(geodata);
-  
+  names = geoJsonCities(geodata);
+  road = []
+
+  divInfo.show();
+  divInfo.html("###")
+
+  color = "red";
+  weigth = 3;
+  size = 10;
+
   for(i in years){
     if(item == years[i]){
       //console.log(polygons[i]);
-      road(i)
+      road.push(names[i])
+      divInfo.html(road.join(" - "))
+      cityMarker(i, color, size, weigth)
     }else if(item == "osszes"){
-      road(i)
-      continue
+      cityMarker(i, color, size, weigth)
+      divInfo.html(names.join(" - "))
+      //continue
     }
-
   }
+  
+  //console.log(road);
 }
 
 function geoJsonYears(data) {
@@ -132,60 +168,13 @@ function geoJsonNames(data) {
   return names
 }
 
-/*function geoPlotPolygon(data, index) {
-  let polygon = data[index][0]
-  if (polygon.length > 0) {
-    beginShape()
-    for (let i = 0; i < polygon.length; i++) {
-      pos = myMap.latLngToPixel(polygon[i][1], polygon[i][0])
-      //print(pos)
-      ellipse(pos.x, pos.y, 10, 10);
-    }
-    endShape(CLOSE)
+function geoJsonCities(data) {
+  names = []
+  for (let i = 0; i < data.features.length; i++) {
+    names.push(data.features[i].properties.name)
   }
-}*/
-
-function geoPlotMultiPolygon(data, index) {
-  //let polygons = data[index][1]
-
-  coord = data[index]
-  if (index >= 0 && index <= data.length) {
-  
-    divInfo.show();
-    divInfo.html(index)
-
-    const pos = myMap.latLngToPixel(coord[1], coord[0])
-    //console.log(pos);
-    stroke("orange")
-    strokeWeight(5)
-    ellipse(pos.x, pos.y, 2, 2)
-  }else if( index == -1 && geodata){
-    for (const [index, features] of geodata.features.entries()){
-        //console.log(features.geometry.coordinates[1]);
-        const all = myMap.latLngToPixel(features.geometry.coordinates[1], features.geometry.coordinates[0])
-        stroke("orange")
-        strokeWeight(5)
-        //console.log(all);
-        ellipse(all.x, all.y, 2, 2)
-        divInfo.html("All cities")
-    }
-  }  
+  return names
 }
-
-/*for (let p=0; p<polygons.length; p++) {
-  let polygon = polygons[p]
-  pos = myMap.latLngToPixel(polygon[i][1], polygon[i][0])
-  if (polygon.length > 0) {
-    beginShape()
-    for (let i = 0; i < polygon.length; i++) {
-      print(pos)
-      vertex(pos.x, pos.y)
-      
-    }
-    endShape(CLOSE)
-    
-  }
-}*/
 
 function draw(){
   // Clear the canvas on every frame
@@ -194,17 +183,6 @@ function draw(){
   stroke("green")
   strokeWeight(5)
   noFill()
-  if(sel.selected()){
-    mySelectRoad()
-  }else{
-    clear()
-  }
-  geoPlotMultiPolygon(polygons, mySelectCity())
-  /*
-  for(features of geodata.features){
-    const all = myMap.latLngToPixel(features.geometry.coordinates[1], features.geometry.coordinates[0])
-    if(mouseX == all.x){
-      console.log(features.properties.name);
-    }
-  }*/
+  mySelectCity()
+  mySelectRoad()
 }

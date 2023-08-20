@@ -36,6 +36,9 @@ canvas {
   position: relative;
 
   border-radius: 15%;
+
+  overflow: hidden;
+  overflow-wrap: break-word;
 }
 #content{
   top: 50px;
