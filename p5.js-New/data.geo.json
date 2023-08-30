@@ -1,0 +1,124 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "François-Xavier de FELLER (1768)",
+        "name": "KASSA",
+        "person": "François-Xavier de FELLER",
+        "year": "1768",
+        "road": 1
+      },
+      "geometry": {
+        "coordinates": [
+          21.2496774,
+          48.7172272
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "François-Xavier de FELLER (1768)",
+        "name": "TOKAJ",
+        "person": "François-Xavier de FELLER",
+        "year": "1768",
+        "road": 1
+      },
+      "geometry": {
+        "coordinates": [
+          21.4113895,
+          48.1235534
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "François-Xavier de FELLER (1768)",
+        "name": "DEBRECEN",
+        "person": "François-Xavier de FELLER",
+        "year": "1768",
+        "road": 1
+      },
+      "geometry": {
+        "coordinates": [
+          21.6259782,
+          47.531399
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "François-Xavier de FELLER (1768)",
+        "name": "NAGYVÁRAD",
+        "person": "François-Xavier de FELLER",
+        "year": "1768",
+        "road": 1
+      },
+      "geometry": {
+        "coordinates": [
+          21.927919041661156,
+          47.058715
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "Ignaz von Born (1770)",
+        "name": "SZEGED",
+        "person": "Ignaz von Born",
+        "year": "1770",
+        "road": 2
+      },
+      "geometry": {
+        "coordinates": [
+          20.1486016,
+          46.2546312
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "Ignaz von Born (1770)",
+        "name": "TÖRÖKKANIZSA",
+        "person": "Ignaz von Born",
+        "year": "1770",
+        "road": 2
+      },
+      "geometry": {
+        "coordinates": [
+          20.0933532,
+          46.0427093
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "Ignaz von Born (1770)",
+        "name": "TEMESVÁR",
+        "person": "Ignaz von Born",
+        "year": "1770",
+        "road": 2
+      },
+      "geometry": {
+        "coordinates": [
+          21.2257474,
+          45.7538355
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

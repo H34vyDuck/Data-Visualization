@@ -18,19 +18,110 @@ const options = {
   zoom: 6.5,
   style: 'https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png'
 }
+let dataJson = {
+  "type": "FeatureCollection",
+  "features": []
+};
+let locationJson = {
+  "locations": []
+}
 
 function preload() {
-  geodata = loadJSON('varos.geo.json');
-  docdata = loadJSON('output.geojson');
+  geodata = loadJSON('data1800.geo.json');
+  docdata = loadStrings('routes.txt');
   //geodata = loadJSON('europe.geo.json')
+
+  
 }
 
 let divInfo;
 
 function setup(){
+
+  // TODO 
+  // let label; 
+  // let year = 0;
+  // let person = '';  
+  // for (i = 0 ;i < docdata.length -1; i++){
+  //   if (docdata[i].length < 100){
+
+  //       const entries = split(docdata[i], '(');
+  //       label = docdata[i]
+  //       person = trim(entries[0]);
+  //       year = entries[1].slice(0,-1);
+  //       let locations = split(docdata[i+1], ' — ');
+
+  //       for (j = 0 ;j < locations.length; j++){
+
+  //         locations[j] = locations[j].replace(',','');
+  //         locations[j] = locations[j].replace('(','');
+  //         locations[j] = locations[j].replace(')','');
+  //         const entries2 = split(locations[j], ' ');
+
+  //         dataJson.features.push({
+
+  //           "type": "Feature",
+  //           "properties": {
+  //               "label": label,
+  //               "name": entries2[0],
+  //               "person": person,
+  //               "year": year,
+  //           },
+            
+            
+  //         })
+  //         locationJson.locations.push({
+  //           name: entries2[0]
+  //         })
+  //       }
+
+  //   }
+  // }
+
+  // let dataJsonAll = dataJson;
+  // for(let i = 0; i< locationJson.locations.length ; i++)
+  // {
+  //   if(locationJson.locations[i].name){
+  //     let url = "https://api.openweathermap.org/geo/1.0/direct?q=" + locationJson.locations[i].name + "&limit=1&appid=59c20244f0ef94e313cef6b6083247df";
+    
+  //     httpGet(url, 'json', false, function(response) {
+  //       if(response && response.lon && response.lat) {
+  //         for (let j=0; j < dataJson.features.length; j++){
+
+  //           if( locationJson.locations[i].name == dataJson.features[j].properties.name ){
+  //               dataJsonAll.features[j].geometry = {
+  //                 "coordinates": [
+  //                   response[0].lon,
+  //                   response[0].lat
+  //                 ],
+  //                 "type": "Point"
+  //               }
+  //           }
+  //         }
+    
+  //       }
+  //       else {
+  //         delete dataJsonAll.features[j]; 
+  //       }
+  //       if ( i == locationJson.locations.length - 1 && j == dataJson.features.length-1)
+  //       {
+
+  
+  //         console.log('----1-----',dataJsonAll);
+  //         console.log(dataJsonAll)
+  //         saveJSON(dataJsonAll, 'data.geo.json');
+  //       }
+        
+  //     })
+
+  //   }
+    
+
+  // }
+
+
   // Create a canvas on which to draw the map
   canvas = createCanvas(windowWidth, windowHeight)
-  console.log(windowWidth + ", " + windowHeight)
 
   // Create map with the options
   myMap = mappa.tileMap(options)
@@ -40,92 +131,77 @@ function setup(){
 
   polygons = myMap.geoJSON(geodata, 'Point')
 
-  sel = createSelect();
-  sel.id('selectRoad');
-  sel.parent('#selects');
+  selectRoute = createSelect();
+  selectRoute.id('selectRoad');
+  selectRoute.parent('#selects');
 
-  ev = geoJsonYears(geodata)
-  let unique = [...new Set(ev)]
+  let labels = geoJsonLabels(geodata)
+  labels = [...new Set(labels)]
 
-
-  for(let i=0; i<unique.length; i++){
-    sel.option(unique[i]);
+  for(let i=0; i<labels.length; i++){
+    selectRoute.option(labels[i]);
   }
-  sel.option('osszes')
-  sel.changed(mySelectRoad);
+  selectRoute.changed(mySelectRoad);
 
-  selectCity = createSelect();
-  selectCity.id('citySelect');
-  selectCity.parent('#selects')
-  if(geodata){
-    for (let features of geodata.features){
-      const name = features.properties.name;
-      selectCity.option(name);
-    }
-  }
-  selectCity.option('osszes')
-  selectCity.changed(mySelectCity);
+  // selectCity = createSelect();
+  // selectCity.id('citySelect');
+  // selectCity.parent('#selects')
+  // if(geodata){
+  //   for (let features of geodata.features){
+  //     const name = features.properties.name;
+  //     selectCity.option(name);
+  //   }
+  // }
+  // selectCity.option('all')
+  // selectCity.changed(mySelectCity);
   
   divInfo = createDiv();
   divInfo.id('info');
   divInfo.parent('#infoTab');
   divInfo.hide();
 
-  console.log(geodata);
-  console.log(polygons);
-  console.log(geoJsonYears(geodata));
-  console.log(geoJsonNames(geodata));
-  console.log(geoJsonCities(geodata));
-
-  /// A script ellenorzese console-on
   
-  db = 1
-  for (const [index, features] of docdata.features.entries()){
-    isNull = docdata.features[index].properties.year
-    if(isNull != null){
-      console.log(db + ". " + docdata.features[index].properties.year + " " + docdata.features[index].properties.name);
-      db++
-    }
-  }
-  console.log(db);
-
 }
 
 /// A select valasztas utan meghivott fuggveny
 
 function cityMarker(i, color, size, weigth) {
-      const pos = myMap.latLngToPixel(polygons[i][1], polygons[i][0])
-      stroke(color);
-      strokeWeight(weigth);
-      ellipse(pos.x, pos.y, size, size)
-}
+  if(polygons &&  polygons[i])
+  {
 
-function mySelectCity() {
-  let item = selectCity.value();
-
-  names = geoJsonCities(geodata);
-
-  color = "yellow"
-  weigth = 5
-  size = 5
-
-  for(i in names){
-    if(item == names[i]){
-      //console.log(polygons[i]);
-      cityMarker(i, color, size, weigth)
-    }else if(item == "osszes"){
-      cityMarker(i, color, size, weigth)
-      continue
-    }
-
+    const pos = myMap.latLngToPixel(polygons[i][1], polygons[i][0])
+    stroke(color);
+    strokeWeight(weigth);
+    ellipse(pos.x, pos.y, size, size)
   }
-  
 }
+
+// function mySelectCity() {
+//   let item = selectCity.value();
+
+//   names = geoJsonCities(geodata);
+
+//   color = "yellow"
+//   weigth = 5
+//   size = 5
+
+//   for(i in names){
+//     if(item == names[i]){
+//       //console.log(polygons[i]);
+//       cityMarker(i, color, size, weigth)
+//     }else if(item == "osszes"){
+//       cityMarker(i, color, size, weigth)
+//       continue
+//     }
+
+//   }
+  
+// }
 
 function mySelectRoad() {
-  let item = sel.value();
+  let item = selectRoute.value();
 
-  years = geoJsonYears(geodata);
+  labels = geoJsonLabels(geodata);
   names = geoJsonCities(geodata);
   road = []
 
@@ -135,29 +211,23 @@ function mySelectRoad() {
   color = "red";
   weigth = 3;
   size = 10;
-
-  for(i in years){
-    if(item == years[i]){
-      //console.log(polygons[i]);
+  for(let i=0; i<labels.length; i++){
+    if(item == labels[i]){
       road.push(names[i])
       divInfo.html(road.join(" - "))
       cityMarker(i, color, size, weigth)
-    }else if(item == "osszes"){
-      cityMarker(i, color, size, weigth)
-      divInfo.html(names.join(" - "))
-      //continue
     }
   }
   
   //console.log(road);
 }
 
-function geoJsonYears(data) {
-  year = []
+function geoJsonLabels(data) {
+  labels = []
   for (let i = 0; i < data.features.length; i++) {
-    year.push(data.features[i].properties.year)
+    labels.push(data.features[i].properties.label)
   }
-  return year
+  return labels
 }
 
 function geoJsonNames(data) {
@@ -183,6 +253,6 @@ function draw(){
   stroke("green")
   strokeWeight(5)
   noFill()
-  mySelectCity()
+  // mySelectCity()
   mySelectRoad()
 }
