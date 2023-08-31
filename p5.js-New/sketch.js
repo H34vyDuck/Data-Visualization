@@ -105,7 +105,7 @@ function mySelectCity() {
 
   names = geoJsonCities(geodata);
 
-  color = "yellow"
+  color = "#ECB365"
   weigth = 5
   size = 5
 
@@ -130,9 +130,8 @@ function mySelectRoad() {
   road = []
 
   divInfo.show();
-  divInfo.html("###")
 
-  color = "red";
+  color = "#064663";
   weigth = 3;
   size = 10;
 
