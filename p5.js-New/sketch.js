@@ -27,7 +27,7 @@ let locationJson = {
 }
 
 function preload() {
-  geodata = loadJSON('data1800.geo.json');
+  geodata = loadJSON('data1.geo.json');
   docdata = loadStrings('routes.txt');
   //geodata = loadJSON('europe.geo.json')
 
@@ -39,91 +39,91 @@ let divInfo;
 function setup(){
 
   // TODO 
-  let label; 
-  let year = 0;
-  let person = '';  
-  for (i = 0 ;i < docdata.length -1; i++){
-    if (docdata[i].length < 100){
+  // let label; 
+  // let year = 0;
+  // let person = '';  
+  // for (i = 0 ;i < docdata.length -1; i++){
+  //   if (docdata[i].length < 100){
 
-        const entries = split(docdata[i], '(');
-        label = docdata[i]
-        person = trim(entries[0]);
-        year = entries[1].slice(0,-1);
-        let locations = split(docdata[i+1], ' — ');
+  //       const entries = split(docdata[i], '(');
+  //       label = docdata[i]
+  //       person = trim(entries[0]);
+  //       year = entries[1].slice(0,-1);
+  //       let locations = split(docdata[i+1], ' — ');
 
-        for (j = 0 ;j < locations.length; j++){
+  //       for (j = 0 ;j < locations.length; j++){
 
-          locations[j] = locations[j].replace(',','');
-          locations[j] = locations[j].replace('(','');
-          locations[j] = locations[j].replace(')','');
-          const entries2 = split(locations[j], ' ');
+  //         locations[j] = locations[j].replace(',','');
+  //         locations[j] = locations[j].replace('(','');
+  //         locations[j] = locations[j].replace(')','');
+  //         const entries2 = split(locations[j], ' ');
 
-          dataJson.features.push({
+  //         dataJson.features.push({
 
-            "type": "Feature",
-            "properties": {
-                "label": label,
-                "name": entries2[0],
-                "person": person,
-                "year": year,
-            },
+  //           "type": "Feature",
+  //           "properties": {
+  //               "label": label,
+  //               "name": entries2[0],
+  //               "person": person,
+  //               "year": year,
+  //           },
             
             
-          })
-          locationJson.locations.push({
-            name: entries2[0]
-          })
-        }
+  //         })
+  //         locationJson.locations.push({
+  //           name: entries2[0]
+  //         })
+  //       }
 
-    }
-  }
+  //   }
+  // }
 
-  let dataJsonAll = dataJson;
-  for(let i = 0; i< locationJson.locations.length ; i++)
-  {
-    if(locationJson.locations[i].name){
-      let url = "https://api.openweathermap.org/geo/1.0/direct?q=" + locationJson.locations[i].name + "&limit=1&appid=a6e48116d64135042e74451a0e4d0ada";
+  // let dataJsonAll = dataJson;
+  // for(let i = 0; i< locationJson.locations.length ; i++)
+  // {
+  //   if(locationJson.locations[i].name){
+  //     let url = "https://api.openweathermap.org/geo/1.0/direct?q=" + locationJson.locations[i].name + "&limit=1&appid=a6e48116d64135042e74451a0e4d0ada";
     
-      httpGet(url, 'json', false, function(response) {
-        if(response && response[0] && response[0].lon && response[0].lat) {
+  //     httpGet(url, 'json', false, function(response) {
+  //       if(response && response[0] && response[0].lon && response[0].lat) {
 
-          for (let j=0; j < dataJson.features.length; j++){
+  //         for (let j=0; j < dataJson.features.length; j++){
 
-            if( locationJson.locations[i].name == dataJson.features[j].properties.name ){
-                dataJsonAll.features[j].geometry = {
-                  "coordinates": [
-                    response[0].lon,
-                    response[0].lat
-                  ],
-                  "type": "Point"
-                }
-            }
+  //           if( locationJson.locations[i].name == dataJson.features[j].properties.name ){
+  //               dataJsonAll.features[j].geometry = {
+  //                 "coordinates": [
+  //                   response[0].lon,
+  //                   response[0].lat
+  //                 ],
+  //                 "type": "Point"
+  //               }
+  //           }
 
-            let dataJsonAllSend = {
-              features: [],
-              type: "FeatureCollection"
-            }
+  //           let dataJsonAllSend = {
+  //             features: [],
+  //             type: "FeatureCollection"
+  //           }
 
-            if ( i == locationJson.locations.length - 1 && j == dataJson.features.length - 1){
+  //           if ( i == locationJson.locations.length - 1 && j == dataJson.features.length - 1){
 
-              for (let k = 0; k < dataJsonAll.features.length; k++)
-              {
-                if(typeof dataJsonAll.features[k].geometry != "undefined"){
-                  dataJsonAllSend.features.push(dataJsonAll.features[k]);
-                }
-              }
-              console.log(dataJsonAllSend)
-              saveJSON(dataJsonAllSend, 'data.geo.json');
-            }
+  //             for (let k = 0; k < dataJsonAll.features.length; k++)
+  //             {
+  //               if(typeof dataJsonAll.features[k].geometry != "undefined"){
+  //                 dataJsonAllSend.features.push(dataJsonAll.features[k]);
+  //               }
+  //             }
+  //             console.log(dataJsonAllSend)
+  //             saveJSON(dataJsonAllSend, 'data.geo.json');
+  //           }
             
-          }
-        }
-      })
+  //         }
+  //       }
+  //     })
 
-    }
+  //   }
     
 
-  }
+  // }
 
 
   // Create a canvas on which to draw the map
