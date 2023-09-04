@@ -160,15 +160,14 @@ KOLOZSVÁR — SEGESVÁR (Sighișoara, Segesvár 123.) — HOMORÓD (Homorod, Ho
 MERZA GYULA (1908)
 HOMORÓDFÜRDŐ (Băile Homorod, Homoród, Hűvösvölgy 54.) — SZENTKERESZTBÁNYA (Vlăhița-Nouă, Szentkeresztbánya, Lobogó, Dobogó 54.) — KIRULYFÜRDŐ (Chirui, Kéruly 54.) — SZENTEGYHÁZASFALU (Vlăhița, Szentegyházasfalva 54.) —  HOMORÓDFÜRDŐ (55.) — SZÉKELYUDVARHELY (Odorheiu Secuiesc, Székelyudvarhely 57.) — SZEJKE (Seiche, Szejke 57.) — KOROND (Corund, Korond 57.) — PARAJD (Praid, Parajd 57.) — SZOVÁTA (Sovata, Szováta 57.).
 KATOLIKUS FŐGIMNÁZIUM, KÉZDIVÁSÁRHELY (1910)
-[ÉZDIVÁSÁRHELY— BRASSÓ (Brașov, Brassó 67.) — BALÁZSFALVA (Blaj, Küküllőszeg 67.) — SZOVÁTA (Sovata, Szováta 67.) — PARAJD (Praid, Parajd 67.) —  GYERGYÓSZÁRHEGY (Lăzarea, Szárhegy 67.) — GYERGYÓSZENTMIKLÓS (Gheorgheni, Gyergyószentmiklós 67.) —  KÉZDIVÁSÁRHELY.
-----
-
-
+KÉZDIVÁSÁRHELY— BRASSÓ (Brașov, Brassó 67.) — BALÁZSFALVA (Blaj, Küküllőszeg 67.) — SZOVÁTA (Sovata, Szováta 67.) — PARAJD (Praid, Parajd 67.) —  GYERGYÓSZÁRHEGY (Lăzarea, Szárhegy 67.) — GYERGYÓSZENTMIKLÓS (Gheorgheni, Gyergyószentmiklós 67.) —  KÉZDIVÁSÁRHELY.
 KATOLIKUS FŐGIMNÁZIUM, SZÉKELYUDVARHELY (1911)
 SZÉKELYUDVARHELY (Odorheiu Secuiesc, Udvarhely 45.) — KORONDFÜRDŐ (Băile Corund, korondi fürdő 45.) — PARAJD (Praid, Parajd 45.) — SZOVÁTA (Sovata, Szováta 45.) — SZÉKELYUDVARHELY (46.).
-
 HOFFER ANDRÁS (1911)
-SZÉKELYUDVARHELY (Odorheiu Secuiesc, Székelyudvarhely 2.) — SZEJKE (Băile Seiche, Szejke-fürdő 2.) — SZÉKELYSZENTLÉLEK (Bisericani, Szentlélek 3.) — FARKASLAKA (Lupeni, Farkaslaka 3.) — a már csak gyalogútnak használt úton fel a pálfalvi platóra (3.) — KOROND (Corund, Korond 3.) — KORONDFÜRDŐ (Băile Corund, korondi fürdő 3.) — FELSŐSÓFALVA (Ocna de Sus, Sófalva 7.) — PARAJD (Praid, Parajd 3.) — SZOVÁTA (Sovata, Szováta 6.) — vonaton PARAJD (7.) — FELSŐSÓFALVA (7.) — KOROND (7.) — pálfalvi plató (7.) — FARKASLAKA (7.) — SZÉKELYSZENTLÉLEK (7.) — SZEJKE (7.) — SZÉKELYUDVARHELY (7.).
+SZÉKELYUDVARHELY (Odorheiu Secuiesc, Székelyudvarhely 2.) — SZEJKE (Băile Seiche, Szejke-fürdő 2.) — SZÉKELYSZENTLÉLEK (Bisericani, Szentlélek 3.) — FARKASLAKA (Lupeni, Farkaslaka 3.) — KOROND (Corund, Korond 3.) — KORONDFÜRDŐ (Băile Corund, korondi fürdő 3.) — FELSŐSÓFALVA (Ocna de Sus, Sófalva 7.) — PARAJD (Praid, Parajd 3.) — SZOVÁTA (Sovata, Szováta 6.) — vonaton PARAJD (7.) — FELSŐSÓFALVA (7.) — KOROND (7.) — pálfalvi plató (7.) — FARKASLAKA (7.) — SZÉKELYSZENTLÉLEK (7.) — SZEJKE (7.) — SZÉKELYUDVARHELY (7.).
+
+
+------------------
 
 KŐ- ÉS AGYAGIPARI SZAKISKOLA, SZÉKELYUDVARHELY (1911)
 [SZÉKELYUDVARHELY], KOROND (Corund, Korond 9.), PARAJD (Praid, Parajd 9.), SZOVÁTA (Sovata, Szováta 9.), MAROSVÁSÁRHELY (Târgu Mureș, Marosvásárhely 9.), TORDA (Turda, Torda 9.), KOLOZSVÁR (Cluj-Napoca, Kolozsvár 9.), BUDAPEST (Budapest 9.), [SZÉKELYUDVARHELY].
