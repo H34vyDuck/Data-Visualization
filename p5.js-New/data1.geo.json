@@ -49198,6 +49198,3766 @@
         ],
         "type": "Point"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR (1912)",
+        "name": "SZÉKELYKERESZTÚR",
+        "person": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR",
+        "year": "1912"
+      },
+      "geometry": {
+        "coordinates": [
+          25.0355987,
+          46.2889771
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR (1912)",
+        "name": "GAGY",
+        "person": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR",
+        "year": "1912"
+      },
+      "geometry": {
+        "coordinates": [
+          25.0302984,
+          46.3652729
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR (1912)",
+        "name": "BÖZÖD",
+        "person": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR",
+        "year": "1912"
+      },
+      "geometry": {
+        "coordinates": [
+          24.9228488,
+          46.4062796
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR (1912)",
+        "name": "ERDŐSZENTGYÖRGY",
+        "person": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR",
+        "year": "1912"
+      },
+      "geometry": {
+        "coordinates": [
+          24.8421705,
+          46.4314439
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR (1912)",
+        "name": "SÓVÁRAD",
+        "person": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR",
+        "year": "1912"
+      },
+      "geometry": {
+        "coordinates": [
+          25.0102902,
+          46.5619751
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR (1912)",
+        "name": "SZOVÁTA",
+        "person": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR",
+        "year": "1912"
+      },
+      "geometry": {
+        "coordinates": [
+          25.07328,
+          46.5971683
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR (1912)",
+        "name": "KOROND",
+        "person": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR",
+        "year": "1912"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1836329,
+          46.4716406
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR (1912)",
+        "name": "SZÉKELYKERESZTÚR.",
+        "person": "UNITÁRIUS GIMNÁZIUM, SZÉKELYKERESZTÚR",
+        "year": "1912"
+      },
+      "geometry": {
+        "coordinates": [
+          25.0355987,
+          46.2889771
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "PISKI",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          23.0162168,
+          45.8475432
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "VAJDAHUNYAD",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          22.9073792,
+          45.7575221
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "GYULAFEHÉRVÁR",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          23.57207875207549,
+          46.0713439
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "OMPOLYGYEPŰ",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          23.3298682,
+          46.0968101
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "ZALATNA",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          23.2247191,
+          46.1113532
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "ABRUDBÁNYA",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          23.0650287,
+          46.2746751
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "VERESPATAKTORKA",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          23.0574533,
+          46.3091464
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "VERESPATAK",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          23.1309849,
+          46.3062526
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "TORDA",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          23.7798424,
+          46.5649706
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "MAROSÚJVÁR",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          23.8577354,
+          46.3814028
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "NAGYENYED",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          23.7188181,
+          46.3108893
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "SZOVÁTA",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          25.07328,
+          46.5971683
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "PARAJD",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1245222,
+          46.5529119
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "SZÉKELYUDVARHELY",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          25.2950261,
+          46.3047462
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "TUSNÁDFÜRDŐ",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          25.8587996,
+          46.1440473
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK (1913)",
+        "name": "KOLOZSVÁR",
+        "person": "KATOLIKUS MAGYAR FŐGIMNÁZIUM, ÚJVIDÉK",
+        "year": "1913"
+      },
+      "geometry": {
+        "coordinates": [
+          23.5899542,
+          46.769379
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MÁRAMAROSSZIGET",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.8915583,
+          47.9283242
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "TISZAVERESMART",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.9576793,
+          47.9484406
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "TISZAKARÁCSONYFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.9826698,
+          47.9555053
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "PETROVABISZTRA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.1913715,
+          47.8650251
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "PETROVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.2025295,
+          47.8370327
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "LEORDINA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.2472878,
+          47.7894862
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ALSÓVISÓ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.3657085,
+          47.7244216
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "KÖZÉPVISÓ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.4057516,
+          47.7155458
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "FELSŐVISÓ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.4311547,
+          47.7099597
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MAJSZIN",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.5489936,
+          47.6542533
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BORSA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          16.7834908,
+          46.5012202
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "CÂRLIBABA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1266707,
+          47.5758338
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "RADNALAJOSFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1269425,
+          47.5707684
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "CIOCĂNEȘTI",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.9695465,
+          44.8514121
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "IACOBENI",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.0287778,
+          46.6695568
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "DORNAVÁTRA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.3557638,
+          47.3469264
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "DORNA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.504124,
+          47.0136293
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "POIANA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.1043343,
+          46.4395773
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MAROSBORGÓ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.8599553,
+          47.2106616
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BORGÓTIHA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7634894,
+          47.2249669
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BORGÓPRUND",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7406598,
+          47.2201539
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "JÁD",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.5730451,
+          47.1810349
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ALDORF",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          7.5271687,
+          48.5229995
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BESZTERCE",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.49755169876672,
+          47.13897525
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BESENYŐ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          18.2634183,
+          48.0447635
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZERETFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.4116716,
+          47.0523975
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "HARINA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.4144269,
+          47.0203355
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "GALACFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.4183665,
+          46.9925984
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "DIPSE",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.4389744,
+          46.9623751
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "KOLOZSNAGYIDA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.4632313,
+          46.9450209
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "TEKE",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.5064244,
+          46.910552
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "TEKEÚJFALU",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.5759183,
+          46.8492554
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZÁSZRÉGEN",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7000238,
+          46.7796886
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MAROSFELFALU",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7312586,
+          46.8129441
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MAROSVÉCS",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7613032,
+          46.8571245
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "DISZNAJÓ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7979259,
+          46.8927438
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MAROSLAKA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.8106001,
+          46.9078717
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MONOSFALU",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.8313863,
+          46.9243585
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MAROSKÖVESD",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.8440778,
+          46.9359372
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "DÉDA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          39.1653612,
+          21.5810088
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "RATOSNYA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.9929438,
+          46.9723514
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "PALOTAILVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.113736,
+          46.9569793
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "GÖDEMESTERHÁZA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.2392115,
+          46.9601847
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "CSOBOTÁNY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.2687292,
+          46.9503763
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MAROSHÉVÍZ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.352455,
+          46.9241232
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BORSZÉK",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.5609031,
+          46.9639588
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "GYERGYÓHOLLÓ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.6846844,
+          46.9914199
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "GYERGYÓTÖLGYES",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.7626421,
+          46.9654071
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "RECEFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.7287191,
+          46.9007851
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "GYERGYÓSZÁRHEGY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.5326726,
+          46.7460218
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "GYERGYÓSZENTMIKLÓS",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.5998915,
+          46.7213467
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "GYERGYÓALFALU",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.5039123,
+          46.7008796
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "PARAJD",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1245222,
+          46.5529119
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZOVÁTA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.07328,
+          46.5971683
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "NYÁRÁDREMETE",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.9241108,
+          46.6616859
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "NYÁRÁDKÖSZVÉNYES",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.9023747,
+          46.6529933
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "DEMÉNYHÁZA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.8607144,
+          46.6261223
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ISZLÓ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7856374,
+          46.6247562
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "IKLAND",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.6933767,
+          46.6119686
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "NAGYERNYE",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.6431138,
+          46.6057231
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MAROSSZENTGYÖRGY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.6042074,
+          46.5764335
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MAROSVÁSÁRHELY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.561196,
+          46.5446253
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ÁKOSFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.6338576,
+          46.4795456
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZÉKELYVAJA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.6470857,
+          46.4469141
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "GÖCS",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          20.4172842,
+          48.7588226
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BALAVÁSÁR",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.6889409,
+          46.4089658
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "NAGYKEND",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.730019,
+          46.3912263
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "CIKMÁNTOR",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7163669,
+          46.3550784
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZÁSZNÁDAS",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7287132,
+          46.3207635
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "HÉTUR",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7668011,
+          46.26813
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SEGESVÁR",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7934483,
+          46.2202037
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "FEHÉREGYHÁZA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.8500258,
+          46.2395271
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "HÉJJASFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.9232611,
+          46.2419541
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ÚJSZÉKELY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.9721139,
+          46.2613051
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ALSÓBOLDOGFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.9965649,
+          46.2744401
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZÉKELYKERESZTÚR",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.0355987,
+          46.2889771
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BETFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.082425,
+          46.2902739
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "NAGYGALAMBFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1327143,
+          46.273921
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "DÉCSFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1767514,
+          46.2550613
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BÖGÖZ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.220443,
+          46.2572461
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BIKAFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.220443,
+          46.2572461
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "FELSŐBOLDOGFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.2784349,
+          46.2731443
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZÉKELYUDVARHELY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.2950261,
+          46.3047462
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZÉKELYBETLENFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.320979,
+          46.3236415
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "FENYÉD",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.3423371,
+          46.3419884
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MÁRÉFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.3838472,
+          46.3413963
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "KÁPOLNÁSFALU",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.5112654,
+          46.3568689
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZENTEGYHÁZA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.5298049,
+          46.3445399
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "CSÍKSZEREDA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.802126174999998,
+          46.361187
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ZSÖGÖD",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.808095,
+          46.340709
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "CSÍKSZENTKIRÁLY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.8387483,
+          46.312374
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "CSÍKSZENTIMRE",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.8543891,
+          46.2812609
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "CSÍKSZENTSIMON",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.8860762,
+          46.2582537
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "CSÍKVEREBES",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.9050486,
+          46.2230282
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "TUSNÁD",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.9154125,
+          46.2047404
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "TUSNÁDFÜRDŐ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.8587996,
+          46.1440473
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SEPSIBÜKSZÁD",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.872345809232172,
+          46.1097261
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MIKÓÚJFALU",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.8346102,
+          46.0502586
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MÁLNÁS",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.8411935,
+          46.0077634
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "OLTSZEM",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.8479909,
+          45.9767328
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SEPSISZENTGYÖRGY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.7865367,
+          45.8659935
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ILLYEFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.7710043,
+          45.7944297
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ALDOBOLY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.7561389,
+          45.7795141
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZÁSZHERMÁNY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.690401075108436,
+          45.7177212
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BRASSÓ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.6102746,
+          45.6523093
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "VIDOMBÁK",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.5066416,
+          45.6634951
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "FEKETEHALOM",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.4490362,
+          45.6924431
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "VLEDÉNY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.3668384,
+          45.7694208
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "PERSÁNY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.2164912,
+          45.778493
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SÁRKÁNY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1392489,
+          45.8316364
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MUNDRA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          25.0466557,
+          45.8228924
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "FOGARAS",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.9703224,
+          45.8449433
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BETLEN",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.9242026,
+          45.8328718
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "DRIDIF",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.8836359,
+          45.8207469
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "VOILA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.8403531,
+          45.8181142
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ALSÓSZOMBATFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.8163772,
+          45.8096425
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BESIMBÁK",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7623015,
+          45.8027915
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ALSÓVIST",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7237759,
+          45.7952901
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ALSÓUCSA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.6684753,
+          45.7874397
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ALSÓÁRPÁS",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.6221272,
+          45.7794734
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ALSÓPORUMBÁK",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.4561171,
+          45.7585992
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "FELEK",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.3759547,
+          45.7272261
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "FENYŐFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.3289525,
+          45.7210324
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "VESZTÉNY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.2388264,
+          45.7178618
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "NAGYSZEBEN",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.1519202,
+          45.7973912
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "KISTORONY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.1179007,
+          45.7913057
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "KERESZTÉNYSZIGET",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.0282908,
+          45.783709
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ORLÁT",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.9671347,
+          45.7562824
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZECSEL",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.9379651,
+          45.7824445
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "NAGYAPOLD",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.8264841,
+          45.8505029
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZERDAHELY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          16.3105179,
+          46.7712255
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZÁSZSEBES",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.5691574,
+          45.9575384
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZÁSZVÁROS",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.1958453,
+          45.8367637
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "PÁD",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.0888245,
+          45.8335595
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "PISKI",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.0162168,
+          45.8475432
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BÁCSI",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.0062276,
+          45.8025818
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BATIZ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          23.0007008,
+          45.7784688
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ZEYKFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.9936308,
+          45.7145928
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "RÜSZ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          24.1642462,
+          45.9615562
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "MAGYARBRETTYE",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.9994915,
+          45.6573463
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "HÁTSZEG",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.9486986,
+          45.609725
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "TOTESD",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.8876152,
+          45.5750953
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "POKLISA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.878578,
+          45.5647441
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "KERNYESD",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.8660385,
+          45.5482835
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "VÁRHELY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.7825414,
+          45.5152567
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ZAJKÁNY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.7269749,
+          45.4998545
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BUKOVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.99301,
+          49.588509
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "VÁMOSMÁRGA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.5123023,
+          45.5233215
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "SZÖRÉNYBALÁZSD",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.459671,
+          45.5275206
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BISZTRANAGYVÖLGY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.4273833,
+          45.5255886
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ZÁVOLY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.4120457,
+          45.5248669
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BISZTRACSERES",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.3883764,
+          45.5258157
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "NOVÁKFALVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.3228047,
+          45.4922945
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BISZTRANYIRES",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.2556796,
+          45.480714
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "JÁSZ",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.2338393,
+          45.4650871
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "KARÁNSEBES",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.218888376211915,
+          45.412653000000006
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "BÖKÉNY",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.2423182,
+          45.3644656
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "ÖRMÉNYES",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.3100578,
+          45.2093601
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "TEREGOVA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.2853,
+          45.1485881
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KIR. MAGYAR AUTOMOBIL CLUB (1914)",
+        "name": "DOMÁSNYA",
+        "person": "KIR. MAGYAR AUTOMOBIL CLUB",
+        "year": "1914"
+      },
+      "geometry": {
+        "coordinates": [
+          22.3172921,
+          45.0824981
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "N. N. (1916)",
+        "name": "DORNAVÁTRA",
+        "person": "N. N.",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.3557638,
+          47.3469264
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "N. N. (1916)",
+        "name": "BORGÓPRUND",
+        "person": "N. N.",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7406598,
+          47.2201539
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "N. N. (1916)",
+        "name": "BESZTERCE",
+        "person": "N. N.",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          24.49755169876672,
+          47.13897525
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "N. N. (1916)",
+        "name": "SZÁSZRÉGEN",
+        "person": "N. N.",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          24.7000238,
+          46.7796886
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "N. N. (1916)",
+        "name": "MAROSVÁSÁRHELY",
+        "person": "N. N.",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          24.561196,
+          46.5446253
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "N. N. (1916)",
+        "name": "SÓVÁRAD",
+        "person": "N. N.",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.0102902,
+          46.5619751
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "N. N. (1916)",
+        "name": "SZOVÁTA",
+        "person": "N. N.",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.07328,
+          46.5971683
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "N. N. (1916)",
+        "name": "PARAJD",
+        "person": "N. N.",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1245222,
+          46.5529119
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "GONDA HENRIK (1916)",
+        "name": "SZÉKELYKERESZTÚR",
+        "person": "GONDA HENRIK",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.0355987,
+          46.2889771
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "GONDA HENRIK (1916)",
+        "name": "BETFALVA",
+        "person": "GONDA HENRIK",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.082425,
+          46.2902739
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "GONDA HENRIK (1916)",
+        "name": "NAGYGALAMBFALVA",
+        "person": "GONDA HENRIK",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1327143,
+          46.273921
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "GONDA HENRIK (1916)",
+        "name": "BÖGÖZ",
+        "person": "GONDA HENRIK",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.220443,
+          46.2572461
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "GONDA HENRIK (1916)",
+        "name": "BIKAFALVA",
+        "person": "GONDA HENRIK",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.220443,
+          46.2572461
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "GONDA HENRIK (1916)",
+        "name": "SZÉKELYUDVARHELY",
+        "person": "GONDA HENRIK",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.2950261,
+          46.3047462
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "GONDA HENRIK (1916)",
+        "name": "KOROND",
+        "person": "GONDA HENRIK",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1836329,
+          46.4716406
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "GONDA HENRIK (1916)",
+        "name": "PARAJD",
+        "person": "GONDA HENRIK",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1245222,
+          46.5529119
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "GONDA HENRIK (1916)",
+        "name": "SZOVÁTA",
+        "person": "GONDA HENRIK",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.07328,
+          46.5971683
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "HANS CAROSSA (1916)",
+        "name": "MAROSVÁSÁRHELY",
+        "person": "HANS CAROSSA",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          24.561196,
+          46.5446253
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "HANS CAROSSA (1916)",
+        "name": "PARAJD",
+        "person": "HANS CAROSSA",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1245222,
+          46.5529119
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "HANS CAROSSA (1916)",
+        "name": "SZÉKELYUDVARHELY",
+        "person": "HANS CAROSSA",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.2950261,
+          46.3047462
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "HANS CAROSSA (1916)",
+        "name": "CSÍKSZEREDA",
+        "person": "HANS CAROSSA",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.802126174999998,
+          46.361187
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "HANS CAROSSA (1916)",
+        "name": "CSÍKSZENTIMRE",
+        "person": "HANS CAROSSA",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.8543891,
+          46.2812609
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "VÁKÁR P. ARTHÚR (1916)",
+        "name": "MAROSVÁSÁRHELY",
+        "person": "VÁKÁR P. ARTHÚR",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          24.561196,
+          46.5446253
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "VÁKÁR P. ARTHÚR (1916)",
+        "name": "NYÁRÁDKÖSZVÉNYES",
+        "person": "VÁKÁR P. ARTHÚR",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          24.9023747,
+          46.6529933
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "VÁKÁR P. ARTHÚR (1916)",
+        "name": "NYÁRÁDREMETE",
+        "person": "VÁKÁR P. ARTHÚR",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          24.9241108,
+          46.6616859
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "VÁKÁR P. ARTHÚR (1916)",
+        "name": "PARAJD",
+        "person": "VÁKÁR P. ARTHÚR",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1245222,
+          46.5529119
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "VÁKÁR P. ARTHÚR (1916)",
+        "name": "GYERGYÓSZÁRHEGY",
+        "person": "VÁKÁR P. ARTHÚR",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.5326726,
+          46.7460218
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "POGÁNY JÓZSEF (1916)",
+        "name": "SZÉKELYUDVARHELY",
+        "person": "POGÁNY JÓZSEF",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.2950261,
+          46.3047462
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "POGÁNY JÓZSEF (1916)",
+        "name": "KOROND",
+        "person": "POGÁNY JÓZSEF",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1836329,
+          46.4716406
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "POGÁNY JÓZSEF (1916)",
+        "name": "PARAJD",
+        "person": "POGÁNY JÓZSEF",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1245222,
+          46.5529119
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "POGÁNY JÓZSEF (1916)",
+        "name": "GYERGYÓALFALU",
+        "person": "POGÁNY JÓZSEF",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.5039123,
+          46.7008796
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "POGÁNY JÓZSEF (1916)",
+        "name": "GYERGYÓSZENTMIKLÓS",
+        "person": "POGÁNY JÓZSEF",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.5998915,
+          46.7213467
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "POGÁNY JÓZSEF (1916)",
+        "name": "KOLOZSVÁR",
+        "person": "POGÁNY JÓZSEF",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          23.5899542,
+          46.769379
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KARL F. NOWAK (1916)",
+        "name": "KOROND",
+        "person": "KARL F. NOWAK",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1836329,
+          46.4716406
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KARL F. NOWAK (1916)",
+        "name": "PARAJD",
+        "person": "KARL F. NOWAK",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1245222,
+          46.5529119
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "KARL F. NOWAK (1916)",
+        "name": "GYERGYÓALFALU",
+        "person": "KARL F. NOWAK",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.5039123,
+          46.7008796
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "SZÁDECZKY LAJOS (1916)",
+        "name": "KOLOZSVÁR",
+        "person": "SZÁDECZKY LAJOS",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          23.5899542,
+          46.769379
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "SZÁDECZKY LAJOS (1916)",
+        "name": "MAROSVÁSÁRHELY",
+        "person": "SZÁDECZKY LAJOS",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          24.561196,
+          46.5446253
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "SZÁDECZKY LAJOS (1916)",
+        "name": "SÓVÁRAD",
+        "person": "SZÁDECZKY LAJOS",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.0102902,
+          46.5619751
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "SZÁDECZKY LAJOS (1916)",
+        "name": "SZOVÁTA",
+        "person": "SZÁDECZKY LAJOS",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.07328,
+          46.5971683
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "SZÁDECZKY LAJOS (1916)",
+        "name": "PARAJD",
+        "person": "SZÁDECZKY LAJOS",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1245222,
+          46.5529119
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "SZÁDECZKY LAJOS (1916)",
+        "name": "SZÉKELYUDVARHELY",
+        "person": "SZÁDECZKY LAJOS",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.2950261,
+          46.3047462
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "POGÁNY JÓZSEF (1916)",
+        "name": "PARAJD",
+        "person": "POGÁNY JÓZSEF",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1245222,
+          46.5529119
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "POGÁNY JÓZSEF (1916)",
+        "name": "SZÉKELYUDVARHELY",
+        "person": "POGÁNY JÓZSEF",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.2950261,
+          46.3047462
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "POGÁNY JÓZSEF (1916)",
+        "name": "GYERGYÓSZENTMIKLÓS",
+        "person": "POGÁNY JÓZSEF",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.5998915,
+          46.7213467
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "FÉNYES LÁSZLÓ (1916)",
+        "name": "MAROSVÁSÁRHELY",
+        "person": "FÉNYES LÁSZLÓ",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          24.561196,
+          46.5446253
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "FÉNYES LÁSZLÓ (1916)",
+        "name": "NYÁRÁDREMETE",
+        "person": "FÉNYES LÁSZLÓ",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          24.9241108,
+          46.6616859
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "FÉNYES LÁSZLÓ (1916)",
+        "name": "SÓVÁRAD",
+        "person": "FÉNYES LÁSZLÓ",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.0102902,
+          46.5619751
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "FÉNYES LÁSZLÓ (1916)",
+        "name": "SZOVÁTA",
+        "person": "FÉNYES LÁSZLÓ",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.07328,
+          46.5971683
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "FÉNYES LÁSZLÓ (1916)",
+        "name": "PARAJD",
+        "person": "FÉNYES LÁSZLÓ",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1245222,
+          46.5529119
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "FÉNYES LÁSZLÓ (1916)",
+        "name": "KOROND",
+        "person": "FÉNYES LÁSZLÓ",
+        "year": "1916"
+      },
+      "geometry": {
+        "coordinates": [
+          25.1836329,
+          46.4716406
+        ],
+        "type": "Point"
+      }
     }
   ]
 }
